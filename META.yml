@@ -1,0 +1,28 @@
+--- #YAML:1.0
+name:               Mojolicious-Plugin-Authorization
+version:            1.01
+abstract:           A plugin to make authorization a bit easier
+author:
+    - John Scoles <byterock@hotmail.com>
+license:            perl
+distribution_type:  module
+configure_requires:
+    ExtUtils::MakeMaker:  6.30
+    Module::Build:        0.38
+build_requires:
+    Module::Build:      0.38
+    Mojolicious::Lite:  0
+    strict:             0
+    Test::Mojo:         0
+    Test::More:         0
+    warnings:           0
+requires:
+    Mojo::Base:  0
+no_index:
+    directory:
+        - t
+        - inc
+generated_by:       ExtUtils::MakeMaker version 6.56
+meta-spec:
+    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
+    version:  1.4
