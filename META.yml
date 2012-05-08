@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Mojolicious-Plugin-Authorization
-version:            1.02
+version:            1.03
 abstract:           A plugin to make authorization a bit easier
 author:
     - John Scoles <byterock@hotmail.com>
