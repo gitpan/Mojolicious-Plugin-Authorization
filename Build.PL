@@ -19,7 +19,7 @@ my %module_build_args = (
     "John Scoles <byterock\@hotmail.com>"
   ],
   "dist_name" => "Mojolicious-Plugin-Authorization",
-  "dist_version" => "1.03.01",
+  "dist_version" => "1.0301",
   "license" => "perl",
   "module_name" => "Mojolicious::Plugin::Authorization",
   "recommends" => {},
