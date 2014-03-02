@@ -23,10 +23,15 @@ my %WriteMakefileArgs = (
   "PREREQ_PM" => {
     "Mojo::Base" => 0
   },
-  "VERSION" => "1.0301",
+  "VERSION" => "1.03.02",
   "test" => {
     "TESTS" => "t/*.t"
-  }
+  },
+  "META_MERGE" => {
+    "resources" => {
+      "repository" => 'https://github.com/byterock/mojolicious-plugin-authorization',
+    },
+  },
 );
 unless ( eval { ExtUtils::MakeMaker->VERSION(6.56) } ) {
   my $br = delete $WriteMakefileArgs{BUILD_REQUIRES};

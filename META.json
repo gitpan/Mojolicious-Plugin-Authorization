@@ -4,7 +4,7 @@
       "John Scoles <byterock@hotmail.com>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "ExtUtils::MakeMaker version 6.62, CPAN::Meta::Converter version 2.112150",
+   "generated_by" : "Module::Build version 0.38, CPAN::Meta::Converter version 2.110930",
    "license" : [
       "perl_5"
    ],
@@ -13,12 +13,6 @@
       "version" : "2"
    },
    "name" : "Mojolicious-Plugin-Authorization",
-   "no_index" : {
-      "directory" : [
-         "t",
-         "inc"
-      ]
-   },
    "prereqs" : {
       "build" : {
          "requires" : {
@@ -42,6 +36,17 @@
          }
       }
    },
+   "provides" : {
+      "Mojolicious::Plugin::Authorization" : {
+         "file" : "lib/Mojolicious/Plugin/Authorization.pm",
+         "version" : "1.0302"
+      }
+   },
    "release_status" : "stable",
-   "version" : "1.0301"
+   "resources" : {
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ]
+   },
+   "version" : "1.03"
 }

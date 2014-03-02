@@ -19,7 +19,7 @@ my %module_build_args = (
     "John Scoles <byterock\@hotmail.com>"
   ],
   "dist_name" => "Mojolicious-Plugin-Authorization",
-  "dist_version" => "1.0301",
+  "dist_version" => "1.03.01",
   "license" => "perl",
   "module_name" => "Mojolicious::Plugin::Authorization",
   "recommends" => {},
@@ -27,7 +27,12 @@ my %module_build_args = (
   "requires" => {
     "Mojo::Base" => 0
   },
-  "script_files" => []
+  "script_files" => [],
+  "meta_merge" => {
+    "resources" => {
+      "repository" => 'https://github.com/byterock/mojolicious-plugin-authorization'
+    }
+  },
 );
 my $build = Module::Build->new(%module_build_args);
 $build->create_build_script;
